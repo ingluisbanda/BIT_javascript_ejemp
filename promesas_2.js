@@ -21,7 +21,7 @@ let desarrollo = new Promise((resolve, reject) => {
 })
 
 desarrollo
-.then((proyecto)=> alert(proyecto))
-.catch((error)=> alert(error))
-.finally(()=>alert("Promesa Finalizada"))
+.then((proyecto)=> alert(proyecto))         /* resolve */
+.catch((error)=> alert(error))              /* reject */
+.finally(()=>alert("Promesa Finalizada"))   /* finalizado */
 
